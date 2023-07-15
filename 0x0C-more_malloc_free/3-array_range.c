@@ -24,8 +24,8 @@ int *array_range(int min, int max)
 	if (mem_Array == NULL)
 		return (NULL);
 
-	for (i = min; i < array_len; i++)
-		mem_Array[i] = i + 1;
+	for (i = 0; i < array_len; i++, min++)
+		mem_Array[i] = min;
 
 	return (mem_Array);
 }
