@@ -17,10 +17,10 @@ struct dog
 };
 
 /*
- * dog_t - type defination for the new dog dog_n.
+ * dog_t - type defination for the struct dog as an alias dog_t.
  */
 
-typedef struct dog_n dog_t;
+typedef struct dog dog_t;
 
 int _putchar(char);
 void init_dog(struct dog *d, char *name, float age, char *owner);
