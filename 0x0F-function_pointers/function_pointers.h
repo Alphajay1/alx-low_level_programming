@@ -1,6 +1,16 @@
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
 
+/*
+ * File: function_pointers.h
+ * Desc: Header file containing prototypes used in the
+ * task 0x0F-function_pointers.
+ */
+
+
+#include <stdlib.h>
+#include <stdio.h>
+
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
 void array_iterator(int *array, size_t size, void (*action)(int));
