@@ -16,10 +16,6 @@ struct dog
 	char *owner;
 };
 
-/**
- * dog_t - new name for struct dog.
- */
-
 typedef struct dog dog_t;
 
 int _putchar(char);
