@@ -8,6 +8,19 @@
  * the tasks and the _putchar function prototype.
  */
 
+#include <stdarg.h>
+
+/**
+ * struct print - it prints type with its corresponding print function.
+ * @type: shows daata type being passed.
+ * @func: is the function pointer to the function to print data type.
+ */
+typedef struct print
+{
+	char *type;
+	void(*func)(va_list arg);
+} print_type;
+
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
