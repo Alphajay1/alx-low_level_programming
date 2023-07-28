@@ -25,7 +25,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(start);
 		return (NULL);
 	}
-	for (length = 0; str[length]; length++)
+	for (length = 0; str[length];)
 		length++;
 
 	start->str = cp;
