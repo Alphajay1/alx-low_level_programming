@@ -85,7 +85,7 @@ void code100(int find, int fd)
  * @argc: the number of command line args passed.
  * @argv: is the array of pointers to the args.
  *
- * return: 0 on success.
+ * Return: 0 on success.
  */
 int main(int argc, char *argv[])
 {
@@ -114,6 +114,6 @@ int main(int argc, char *argv[])
 	close_to = close(fd_to);
 	close_from = close(fd_from);
 	code100(close_to, fd_to);
-	code100(close_from, fd_to);
+	code100(close_from, fd_from);
 	return (0);
 }
