@@ -20,7 +20,7 @@
 ## Requirements:
 - name of the executable: school
 - rules: all
-<a>all: builds your executable</a>
+- all: builds your executable
 - variables: none
 - 1-Makefile
 
